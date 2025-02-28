@@ -1,0 +1,38 @@
+body {
+    font-family: 'Khmer OS System', sans-serif; /* ប្រើ Font Khmer OS System */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 5vh 5vw; /* បន្ថែម padding តាម viewport */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80vw; /* កំណត់ទទឹង 80% នៃ viewport width */
+    max-width: 800px; /* កំណត់ទទឹងអតិបរមា */
+}
+
+.title {
+    color: blue;
+    font-size: 4vw; /* កំណត់ទំហំអក្សរតាម viewport width */
+}
+
+.subject {
+    font-size: 3vw;
+}
+
+.duration, .time {
+    margin: 2vh 0;
+    font-size: 2.5vw;
+}
+
+.countdown {
+    font-size: 5vw;
+    margin-top: 5vh;
+}
